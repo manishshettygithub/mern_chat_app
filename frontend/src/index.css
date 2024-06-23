@@ -2,16 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("/background2.jpg");
+/* Body background style */
+body {
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("/background2.jpg");
   background-repeat: no-repeat;
-  background-size:cover ;
+  background-size: cover;
   background-position: center;
- 
 }
 
+/* Dark mode looking scrollbar */
 ::-webkit-scrollbar {
-  width: 28px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -25,4 +26,10 @@ body{
 
 ::-webkit-scrollbar-thumb:hover {
   background: #242424;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #121212 #555;
 }
