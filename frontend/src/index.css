@@ -26,6 +26,14 @@ body {
 ::-webkit-scrollbar-thumb:hover {
 	background: #242424;
 }
+/* Firefox scrollbar styles */
+.scroll-container {
+    scrollbar-width: thin;
+    scrollbar-color: #121212 #555;
+  }
+  
+
+
 
 /* SHAKE ANIMATION ON HORIZONTAL DIRECTION */
 .shake {
